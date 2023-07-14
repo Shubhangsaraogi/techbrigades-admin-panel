@@ -1,0 +1,583 @@
+body{
+    background-color:#F5F5F5; 
+    overflow-x: hidden;
+}
+.pdiv1{
+    position: absolute;
+width: 1397px;
+height: 1970px;
+left: 78px;
+top: 127px;
+
+background: #FFFFFF;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.pdiv2{
+    position: absolute;
+left: 42.63%;
+right: 37.63%;
+top: 1%;
+bottom: 92.22%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #898989;
+}
+.pdiv3{
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 1%;
+top: 5%;
+
+background: url(.png);
+}
+.pdiv4{
+    position: absolute;
+left: 3%;
+right: 90.19%;
+top: 12.7%;
+bottom: 82.3%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight:bold;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #026A8C;
+}
+.pdiv5{
+    position: absolute;
+left: 20.9%;
+
+top: 9.07%;
+bottom: 89.5%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #898989;
+
+}
+.name{
+    position: absolute;
+    left:17%;
+    top:5%;
+}
+.dept{
+    position: absolute;
+    left:17%;
+    top:8%;
+
+}
+.lob{
+    position: absolute;
+    left:17%;
+    top:11%;
+}
+.loc{
+    position: absolute;
+    left:17%;
+    top:14%;
+}
+.bid{
+    position: absolute;
+    left:58%;
+    top:5%;
+}
+.mob{
+    position: absolute;
+    left:58%;
+    top:8%;
+}
+.email{
+    position: absolute;
+    left:58%;
+    top:11%;
+}
+.pdiv6{
+    position: absolute;
+left: 32.92%;
+top: 9.07%;
+bottom: 89.5%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.nd{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+.dd{
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+.ld{
+    position: absolute;
+    left: 30%;
+    top: 11%;
+}
+.lcd{
+    position: absolute;
+    left: 30%;
+    top: 14%;
+}
+.bd{
+    position: absolute;
+    left: 70%;
+    top: 5%;
+}
+.mod{
+    position: absolute;
+    left: 70%;
+    top: 8%;
+}
+.emd{
+    position: absolute;
+    left: 70%;
+    top: 11%;
+}
+.pdiv7 button{
+    position: absolute;
+width: 295px;
+height: 36px;
+left: 20%;
+top: 492px;
+
+background: linear-gradient(180deg, rgba(0, 47, 73, 0.76) 0%, rgba(2, 71, 109, 0.88) 100%);
+border-radius: 4px;
+border: none;
+
+}
+.astyle{
+   padding-top: 1.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+}
+.pdiv8 button{
+    position: absolute;
+    width: 295px;
+    height: 36px;
+    left: 65%;
+    top: 492px;
+    
+    background: linear-gradient(180deg, rgba(0, 47, 73, 0.76) 0%, rgba(2, 71, 109, 0.88) 100%);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+}
+.pdiv9{
+    box-sizing: border-box;
+
+position: absolute;
+width: 727px;
+height: 551px;
+left: 1%;
+top: 574px;
+
+border: 5px solid #D9D9D9;
+}
+.pdiv10{
+    box-sizing: border-box;
+
+position: absolute;
+width: 727px;
+height: 341px;
+left: 1%;
+top: 1164px;
+
+border: 5px solid #D9D9D9;
+}
+.pdiv11{
+    box-sizing: border-box;
+
+position: absolute;
+width: 727px;
+height: 400px;
+left: 1%;
+top: 1544px;
+
+border: 5px solid #D9D9D9;
+}
+.pdiv12{
+    box-sizing: border-box;
+
+position: absolute;
+width: 588px;
+height: 263px;
+left: 760px;
+top: 574px;
+
+border: 5px solid #D9D9D9;
+}
+.pdiv91{
+    position: absolute;
+left: 32.76%;
+top: 2%;
+bottom: 72.24%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #898989;
+}
+.pdiv92{
+width: 100px;
+height: 100px;
+
+
+background: rgba(217, 217, 217, 0.31);
+}
+.pdiv93{
+    position: absolute;
+left: 28.24%;
+right: 16.24%;
+top: 15%;
+bottom: 0%;
+}
+.pdiv94{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.pdiv95{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20.2081px;
+line-height: 32px;
+
+color: #898989;
+
+}
+.swbox{
+    position: absolute;
+    left: 8%;
+top: 10%;
+}
+.swhead{
+    position: absolute;
+    left: 25.12%;
+    
+    top: 10.05%;
+    bottom: 69.53%;
+
+}
+.swdesc{
+    position: absolute;
+left: 25.12%;
+
+top: 15.47%;
+bottom: 66.68%;
+}
+.mybox{
+    position: absolute;
+    left: 8%;
+top: 40%;
+}
+.pdiv96{
+    position: absolute;
+    left: 3.24%;
+    right: 16.24%;
+    top: 20%;
+    bottom: 0%;
+}
+.myhead{
+    position: absolute;
+    left: 25.12%;
+    
+    top: 40.05%;
+    bottom: 69.53%;
+}
+.mydesc{
+    position: absolute;
+left: 25.12%;
+
+top: 45.47%;
+bottom: 66.68%;
+}
+.bfbox{
+    position: absolute;
+    left: 8%;
+top: 70%;
+}
+.pdiv97{
+    position: absolute;
+    left: -15%;
+
+    top: 7%;
+    bottom: 0%;
+}
+.bfhead{
+    position: absolute;
+    left: 25.12%;
+    
+    top: 70.05%;
+    bottom: 69.53%;
+}
+.bfdesc{
+    position: absolute;
+left: 25.12%;
+
+top: 75.47%;
+bottom: 66.68%;
+}
+.pdiv101{
+    position: absolute;
+left: 35.47%;
+top: 2.62%;
+bottom: 45.95%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #898989;
+}
+.comm{
+    position: absolute;
+    left: 5.8%;
+
+top: 20.56%;
+bottom: 43.15%;
+}
+.manage{
+    position: absolute;
+    left: 5.8%;
+
+top: 30.56%;
+bottom: 43.15%;
+}
+.fig{
+    position: absolute;
+    left: 5.8%;
+
+top: 40.56%;
+bottom: 43.15%;
+}
+.ur{
+    position: absolute;
+    left: 5.8%;
+
+top: 50.56%;
+bottom: 43.15%;
+}
+.ue{
+    position: absolute;
+    left: 5.8%;
+
+top: 60.56%;
+bottom: 43.15%;
+}
+.vibox{
+    position: absolute;
+    left: 8%;
+top: 20%;
+}
+.vimg{
+    position: absolute;
+    left: 10%;
+top: 10%;
+}
+.vihead{
+    position: absolute;
+    left: 120.12%;
+    
+    top: 0;
+}
+.videsc{
+    position: absolute;
+    left: 250.12%;
+    
+    top: 0%;
+    bottom: 66.68%;
+}
+.kvbox{
+        position: absolute;
+        left: 8%;
+    top: 60%;
+}
+.kvimg{
+    position: absolute;
+    left: 10%;
+top: 20%;
+}
+.kvhead{
+    position: absolute;
+    left: 25%;
+    
+    top: 60%;
+}
+.kvdesc{
+    position: absolute;
+    left: 25.12%;
+    
+    top: 70%;
+    bottom: 66.68%;
+}
+
+.jdiv{
+    position: absolute;
+    left:10%;
+    top:25%;
+}
+.rdiv{
+    position: absolute;
+    left:10%;
+    top:60%;
+}
+.jd{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+.rd{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+.pdiv13{
+    position: absolute;
+left: 70.09%;
+top: 43.75%;
+bottom: 59.83%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.2081px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #898989;
+
+}
+.pdiv14 button{
+    position: absolute;
+width: 138px;
+height: 36px;
+left: 800px;
+top: 945px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+border: none;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+background: linear-gradient(180deg, rgba(0, 47, 73, 0.76) 0%, rgba(2, 71, 109, 0.88) 100%);
+border-radius: 4px;
+}
+.pdiv15 button{
+    position: absolute;
+width: 138px;
+height: 36px;
+left: 1000px;
+top: 945px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+border:none;
+color: #FFFFFF;
+background: linear-gradient(180deg, rgba(0, 47, 73, 0.76) 0%, rgba(2, 71, 109, 0.88) 100%);
+border-radius: 4px;
+}
+.pdiv16 button{
+    position: absolute;
+width: 138px;
+height: 36px;
+left: 1200px;
+top: 945px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+border:none;
+background: linear-gradient(180deg, rgba(0, 47, 73, 0.76) 0%, rgba(2, 71, 109, 0.88) 100%);
+border-radius: 4px;
+}
+.footerpf{
+        position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 1%;
+    top: 2000px;
+    margin-top:150px;
+    background: #014870;
+}

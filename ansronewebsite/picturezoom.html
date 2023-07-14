@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        How to zoom-in and zoom-out
+        image using JavaScript ?
+    </title>
+      
+    <!-- <script src=
+"https://code.jquery.com/jquery-1.12.4.min.js">
+    </script> -->
+</head>
+  <style>
+
+/* (A) LIGHTBOX BACKGROUND */
+#lightbox {
+  /* (A1) COVERS FULLSCREEN */
+  position: absolute; z-index: 999;
+  top: 20%; left: 30%;
+  right: 40%; bottom: 0;
+  width: 40vw; height: 40vh;
+ 
+  /* (A2) BACKGROUND */
+  /* background: rgba(0, 0, 0, 0.5); */
+ 
+  /* (A3) CENTER IMAGE ON SCREEN */
+  display: flex;
+  align-items: center;
+  align-items: center;
+ 
+  /* (A4) HIDDEN BY DEFAULT */
+  visibility: hidden;
+  opacity: 0;
+ 
+  /* (A5) SHOW/HIDE ANIMATION */
+  transition: opacity ease 0.4s;
+}
+ 
+/* (A6) TOGGLE VISIBILITY */
+#lightbox.show {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+/* (B) LIGHTBOX IMAGE */
+#lightbox img {
+  /* (B1) DIMENSIONS */
+  width: 100%;
+  height: auto;
+ 
+  /* (B2) IMAGE FIT */
+  /* contain | cover | fill | scale-down */
+  object-fit: cover;
+}
+ 
+/* (C) LIGHTBOX IMAGE - FULLSCREEN ALTERNATIVE */
+#lightbox img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+  </style>
+<body>
+      
+    <!-- (A) LIGHTBOX CONTAINER -->
+<div id="lightbox"></div>
+ 
+<!-- (B) THE IMAGES -->
+<img src="pic22.png" class="zoomD" id="i1"/>
+<img src="Stacey_Finley_v2.png" class="zoomD"/ id="i2">
+<img src="image7.png" class="zoomD"/ id="i3">
+<img src="image8.png" class="zoomD"/ id="i4">
+</body>
+<script>
+window.onload = () => {
+  // (A) GET LIGHTBOX & ALL .ZOOMD IMAGES
+  let all = document.getElementsByClassName("zoomD"),
+      lightbox = document.getElementById("lightbox");
+ 
+  // (B) CLICK TO SHOW IMAGE IN LIGHTBOX
+  // * SIMPLY CLONE INTO LIGHTBOX & SHOW
+  if (all.length>0) { for (let i of all) {
+    i.onclick = () => {
+      let clone = i.cloneNode();
+      clone.className = "";
+      lightbox.innerHTML = "";
+      lightbox.appendChild(clone);
+      lightbox.className = "show";
+    };
+  }}
+ 
+  // (C) CLICK TO CLOSE LIGHTBOX
+  lightbox.onclick = () => {
+    lightbox.className = "";
+  };
+};
+        
+    </script>
+</html>     
